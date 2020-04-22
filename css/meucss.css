@@ -1,0 +1,57 @@
+body {
+    background-color: honeydew;
+}
+
+.caixa {
+    border: double;
+    width: 20%;
+    margin-left: 40%;
+    background: white;
+}
+
+.caixa:hover {
+    background: black;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New';
+    font-size: 170%;
+}
+
+a {
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 110%;
+    color: black;
+}
+
+a:visited {
+    color: red;
+    font-size: 170%;
+}
+
+a:hover {
+    color: purple;
+    background: beige;
+    font-size: 200%;
+}
+
+a:active {
+    color: blue;
+    border: 2px double green;
+}
+
+.link1 {
+    margin-left: 22%;
+    position: relative;
+    margin-top: 4%;
+}
+
+.link2 {
+    margin-left: 62%;
+    position: fixed;
+    margin-top: -8%;
+}
